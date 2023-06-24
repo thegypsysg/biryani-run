@@ -356,12 +356,12 @@ export default {
     ...mapState(['activeTag']),
     trendingBtn() {
       return [
-        { title: 'Pepperoni', tag: 'Pepperoni' },
-        { title: 'Meat', tag: 'Meat' },
-        { title: 'Veggie', tag: 'Veggie' },
-        { title: 'Chicken', tag: 'Chicken' },
-        { title: '', tag: 'sdasda' },
-        { title: '', tag: 'sdasdsa' },
+        { title: 'Veg Biryani', tag: 'Veg Biryani' },
+        { title: 'Chicken Biryani', tag: 'Chicken Biryani' },
+        { title: 'Mutton Biryani', tag: 'Mutton Biryani' },
+        { title: 'Lamb Biryani', tag: 'Lamb Biryani' },
+        { title: '', tag: 'sdsa' },
+        { title: '', tag: 'dasdsa' },
       ];
     },
   },

@@ -11,7 +11,7 @@
         :class="{ 'mt-n4 mb-n8': !isSmall }"
         style="font-size: 56px; font-style: normal; font-weight: 700"
       >
-        Trending Pizza Items
+        Trending Biryani Items
       </h1>
       <!-- <div class="line-divider mt-10 mx-auto" /> -->
       <!-- <p class="header-title-sub" style="margin-top: 32px">
@@ -276,33 +276,33 @@ export default {
       trendingCard: [
         {
           img: require('@/assets/image/card-1.jpg'),
-          title: 'Veggie Pizza',
-          tag: 'Veggie',
+          title: 'Veg Biryani',
+          tag: 'Veg Biryani',
         },
         {
           img: require('@/assets/image/card-2.jpg'),
-          title: 'Chicken Pizza',
-          tag: 'Chicken',
+          title: 'Chicken Biryani',
+          tag: 'Chicken Biryani',
         },
         {
           img: require('@/assets/image/card-3.jpg'),
-          title: 'Pepperoni Pizza',
-          tag: 'Pepperoni',
+          title: 'Mutton Biryani',
+          tag: 'Mutton Biryani',
+        },
+        {
+          img: require('@/assets/image/card-4.jpg'),
+          title: 'Lamb Biryani',
+          tag: 'Lamb Biryani',
         },
         {
           img: require('@/assets/image/card-1.jpg'),
-          title: 'Veggie Pizza',
-          tag: 'Veggie',
+          title: 'Veg Biryani',
+          tag: 'Veg Biryani',
         },
         {
           img: require('@/assets/image/card-2.jpg'),
-          title: 'Chicken Pizza',
-          tag: 'Chicken',
-        },
-        {
-          img: require('@/assets/image/card-3.jpg'),
-          title: 'Pepperoni Pizza',
-          tag: 'Pepperoni',
+          title: 'Chicken Biryani',
+          tag: 'Chicken Biryani',
         },
       ],
       // filteredCards: [],
@@ -316,10 +316,10 @@ export default {
 
     trendingBtn() {
       return [
-        { title: 'Pepperoni', tag: 'Pepperoni' },
-        { title: 'Meat', tag: 'Meat' },
-        { title: 'Veggie', tag: 'Veggie' },
-        { title: 'Chicken', tag: 'Chicken' },
+        { title: 'Veg Biryani', tag: 'Veg Biryani' },
+        { title: 'Chicken Biryani', tag: 'Chicken Biryani' },
+        { title: 'Mutton Biryani', tag: 'Mutton Biryani' },
+        { title: 'Lamb Biryani', tag: 'Lamb Biryani' },
         { title: '', tag: 'sdsa' },
         { title: '', tag: 'dasdsa' },
       ];
